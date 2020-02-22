@@ -22,7 +22,7 @@ export default [
     path: '/personage',
     component: Personage,
     meta: {
-      isShowFooter: true
+      isShowFooter: false
     }
   },
   {
@@ -41,6 +41,6 @@ export default [
   },
   {
     path: '/',
-    redirect:'/home'
+    redirect:'/personage'
   }
 ]

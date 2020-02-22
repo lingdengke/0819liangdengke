@@ -84,8 +84,11 @@ export default {
  width 100%
  height 100%
  .headers
+  position fixed
+  z-index 99
   width 100%
   height 74px
+  background #fff
   .home-heade
     box-sizing border-box
     display flex
@@ -148,17 +151,16 @@ export default {
       line-height 30px
       text-align center
       font-weight 400
-  
    .home-all
     width 100%
     height 100%
+    z-index 99
     .shopAll
      line-height 30px
      width 100%
      height 30px
      font-size 14px
     .shop-list
-      z-index 99
       padding 12px 0 0
       width 100%
       position absolute
@@ -177,14 +179,15 @@ export default {
        border  1px solid #CCC
        border-radius .05333rem
     .acivt
-      z-index 98
       position absolute
       left 0
-      top 35%
+      top 225px 
+      right 0
+      bottom 0
       width 100%
-      height 70%
+      height 667px
       background rgba(0,0,0,0.5)
-
+      z-index -10
    .home-jiantou
     transition all 0.5s
     display inline-block

@@ -1,19 +1,19 @@
 <template>
   <div id="footerContainer">
     <div :class="{active:$route.path==='/home'}" @click="goPath('/home')" class="guideItem">
-      <i class="iconfont icon-shouye2"></i>
+      <i class="iconfont  iconhome"></i>
       <span>首页</span>
     </div>
     <div :class="{active:$route.path==='/classify'}" @click="goPath('/classify')" class="guideItem">
-      <i class="iconfont icon-shouye2"></i>
+      <i class="iconfont  iconhome"></i>
       <span>分类</span>
     </div>
     <div :class="{active:$route.path==='/buying'}" @click="goPath('/buying')" class="guideItem">
-      <i class="iconfont icon-shouye2"></i>
+      <i class="iconfont  iconhome"></i>
       <span>值得买</span>
     </div>
     <div :class="{active:$route.path==='/shopping'}" @click="goPath('/shopping')" class="guideItem">
-      <i class="iconfont icon-shouye2"></i>
+      <i class="iconfont  iconhome"></i>
       <span>购物车</span>
     </div>
     <div
@@ -21,7 +21,7 @@
       @click="goPath('/personage')"
       class="guideItem"
     >
-      <i class="iconfont icon-shouye2"></i>
+      <i class="iconfont  iconhome"></i>
       <span>个人</span>
     </div>
   </div>
